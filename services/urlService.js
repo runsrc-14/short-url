@@ -77,7 +77,7 @@ export async function generateShortUrl(originalUrl, metaImg, metaTitle) {
   });
   const baseUrl =
     process.env.NODE_ENV === "production"
-      ? `https://friday-share-fb955bc29bef.herokuapp.com/`
+      ? `https://sh-friday-3d8eb91fe84a.herokuapp.com/`
       : `http://localhost:3000/`;
 
   return `${baseUrl}${shortId}`;
